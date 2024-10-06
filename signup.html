@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" width="400" height="200">
+        <h1>Sign Up</h1>
+        <form>
+            <label for="MTR.NO">METER.NO:</label>
+            <input type="text" id="MTR.NO" name="MTR.NO" required>
+
+            <label for="SC.NO">SC.NO:</label>
+            <input type="text" id="SC.NO" name="SC.NO" required>
+
+            <label for="USC">USC CODE:</label>
+            <input type="text" id="USC" name="USC" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="H.NO">H.NO:</label>
+            <input type="text" id="H.NO" name="H.NO" required>
+
+
+            <label for="Village">Village:</label>
+            <input type="text" id="Village" name="Village" required>
+
+            <label for="mandal">mandal:</label>
+            <input type="text" id="mandal" name="mandal" required>
+
+            <label for="District">District:</label>
+            <input type="text" id="District" name="District" required>
+                
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="Phone">Phone No:</label>
+            <input type="text" id="Phone" name="Phone" required>
+
+            <h2>Select Your Government Bills</h2>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" name="bills" value="panchayat"> Panchayat Bill
+            </label>
+            <label>
+                <input type="checkbox" name="bills" value="municipal"> Municipal Bill
+            </label>
+            <label>
+                <input type="checkbox" name="bills" value="ghmc"> GHMC Bill
+            </label>
+            <label>
+                <input type="checkbox" name="bills" value="water"> Water Bill
+            </label>
+            <label>
+                <input type="checkbox" name="bills" value="electricity"> Electricity Bill
+            </label>
+            <label>
+                <input type="checkbox" name="bills" value="property_tax"> Property Tax
+            </label>
+            <label>
+                <input type="checkbox" name="bills" value="land_revenue"> Land Revenue
+            </label>
+            <label>
+                <input type="checkbox" name="bills" value="pollution_fee"> Pollution Control Fee
+            </label>
+        </div>
+
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            
+            <button type="submit" class="button">submit</button>
+        </form>
+        <p>Already have an account? <a href="signin.html">Sign In</a></p>
+    </div>
+</body>
+</html>

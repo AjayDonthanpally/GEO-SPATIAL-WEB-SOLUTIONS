@@ -1,0 +1,283 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: black; /* Background color for the entire page */
+   margin: 0;
+   padding: 0;
+}
+
+.welcome-container {
+   background-color: black; /* Background for welcome container */
+   color: white; /* Text color */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; /* Full viewport height */
+}
+
+#title {
+   font-size: 3em; /* Title font size */
+   color: white; /* Title color */
+}
+
+.suffix {
+   font-size: 1.2em; /* Suffix text size */
+}
+
+#home-page {
+   padding: 20px; /* Padding for home page */
+}
+
+.flex-container {
+   display: flex;
+   justify-content: space-between; /* Space between items */
+   align-items: center; /* Center items vertically */
+}
+
+.top-bar {
+   padding: 10px; /* Padding for top bar */
+   background-color: #2c3e50; /* Dark background color */
+   color: white; /* Text color in top bar */
+}
+
+.notification {
+   margin-left: auto; /* Pushes the notification icon to the left */
+   position: relative; /* For positioning badge */
+}
+
+.notification img {
+   background-color: #2c3e50;
+   width: 30px; 
+   height: 30px; 
+}
+
+.badge {
+   position: absolute;
+   top: -5px; /* Adjust position of badge */
+   right: -10px; /* Adjust position of badge */
+   background-color: red; /* Badge background color */
+   color: white; /* Badge text color */
+   border-radius: 50%; /* Circular badge */
+   padding: 2px 5px; /* Padding for badge */
+   font-size: 12px; /* Font size for badge */
+}
+
+.auth-buttons {
+   display: flex;
+   align-items: center; /* Center align buttons vertically */
+}
+
+.button {
+   background-color: #3498db; /* Button color */
+   color: white; /* White text */
+   border: none; /* No border */
+   padding: 10px 20px; /* Padding for buttons */
+   cursor: pointer; /* Pointer cursor on hover */
+   margin-left: 10px; /* Space between buttons */
+   border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.button:hover {
+   background-color: #2980b9; /* Darker blue on hover */
+}
+
+.menu-button {
+   background-color: #040839; /* Green for menu button */
+   color: white;
+   border-radius: 5px;
+   padding: 10px 15px;
+   cursor: pointer;
+   margin-top: 20px; /* Space above menu button */
+}
+
+.menu-button:hover {
+   background-color: #27ae60; /* Darker green on hover */
+}
+
+.side-menu {
+   display: flex;
+   flex-direction: row;
+   gap: 10px; /* Space between side menu buttons */
+   margin-top: 10px; /* Space below the flex container */
+}
+
+.container {
+   margin: 50px auto;
+   padding: 20px;
+   background-color: white;
+   border-radius: 8px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+   text-align: center; /* Center align headings */
+}
+
+form {
+   display: flex;
+   flex-direction: column; /* Stack form elements vertically */
+}
+
+label {
+   margin-bottom: 5px; /* Space below labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+   width: 100%; /* Full width inputs */
+   padding: 10px; 
+   margin-top: 5px; 
+   border: 1px solid #ccc; 
+   border-radius: 4px; 
+}
+
+.button {
+   background-color: #007bff; /* Button color for forms and actions */
+   color: white; 
+   border-radius: 5px; 
+   cursor: pointer; 
+   margin-top: 10px; 
+}
+
+.button:hover {
+   background-color: #0056b3; /* Darker blue on hover for form buttons */
+}
+
+.profile-picture {
+   text-align: center; 
+}
+
+.profile-picture img {
+   width: 100px; 
+   height: 100px; 
+   border-radius: 50%; 
+   margin-bottom: 10px; 
+}
+
+.profile-details {
+   margin-top: 20px; 
+}
+
+.checkbox-group {
+   margin-top: 10px; 
+}
+
+.checkbox-group label {
+   display: inline-block; 
+   margin-right: 10px; 
+}
+
+body.light-mode {
+   background-color: white;
+   color: black;
+}
+
+body.dark-mode {
+   background-color: black;
+   color: white;
+}
+
+.right-buttons {
+   display: flex;
+   gap: 20px; /* Add space between buttons */
+}
+main {
+   padding: 20px;
+}
+
+section {
+   background-color: white;
+   border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   margin-bottom: 20px;
+   padding: 15px;
+}
+
+h3 {
+   color: #333;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+table th, table td {
+   border: 1px solid #ddd;
+   padding: 8px;
+}
+
+table th {
+   background-color: #007BFF;
+   color: white;
+}
+
+ul {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.last-payment {
+   font-weight: bold;
+   font-size: larger;
+}
+
+footer {
+   text-align: center;
+   padding: 20px;
+}
+
+footer a {
+   color: #007BFF;
+}
+section {
+   background-color: white;
+   border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   padding: 15px;
+}
+
+h3 {
+   color: #333;
+}
+ul {
+   list-style-type: none;
+   padding-left: 0;
+}
+#currentDateTime {
+   font-size: 24px;
+   font-weight: bold;
+}
+.contact-container {
+   background-color: white;
+   color: #333;
+   max-width: 600px;
+   margin: 50px auto;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+   text-align: center;
+   color: #3498db;
+}
+
+label {
+   display: block;
+   margin-top: 10px;
+}
+
+input, textarea {
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+#responseMessage {
+   text-align: center;
+   margin-top: 20px;
+   color: green;
+}

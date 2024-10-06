@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Bill Payment Updates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Latest Bill Payment Updates</h1>
+        <h2>Stay informed about your upcoming payment dates!</h2>
+        <div id="currentTime"></div> <!-- Current Time Display -->
+    </header>
+
+    <main>
+        <section class="upcoming-payments">
+            <h3>Upcoming Payments</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bill Type</th>
+                        <th>Due Date</th>
+                        <th>Amount Due</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="payment-table-body">
+                    <!-- Dynamic content will be inserted here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section class="important-messages">
+            <h3>Important Messages</h3>
+            <ul id="message-list">
+                <!-- Dynamic messages will be inserted here -->
+            </ul>
+        </section>
+
+        <section class="last-payment-date">
+            <h3>Last Payment Date</h3>
+            <div class="last-payment" id="last-payment-date">
+                <!-- Last payment date will be inserted here -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>For assistance, please contact our support team at support@example.com or call (123) 456-7890.</p>
+        <p><a href="#">View Payment History</a> | <a href="#">Set Up Automatic Payments</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
